@@ -1,0 +1,29 @@
+@import "container.css";
+@import "list.css";
+@import "info.css";
+@import "card.css";
+@import "scrollbar.css";
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(131,58,219,1) 0%, rgba(181,47,214,1) 100%);
+    font-family: Arial, sans-serif;
+}
