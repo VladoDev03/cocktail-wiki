@@ -12,8 +12,12 @@
     width: 50vw;
 }
 
-#info {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+#separator {
+    display: none;
+    align-self: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50vw;
+    border-style: solid;
+    border-color: beige;
 }
