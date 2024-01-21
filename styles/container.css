@@ -1,4 +1,4 @@
-#container {
+#app {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -10,4 +10,10 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 50vw;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
