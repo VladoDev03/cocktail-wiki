@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1200px) {
+
     .card,
     .info-image,
     .title-container,
@@ -13,6 +14,7 @@
 }
 
 @media only screen and (max-width: 900px) {
+
     .card,
     .info-image,
     .title-container,
@@ -20,7 +22,7 @@
     .no-video {
         width: 18rem;
     }
-    
+
     .card {
         flex-direction: column;
         padding: 1rem;
@@ -35,9 +37,15 @@
         width: 100%;
         overflow-x: hidden;
     }
+
+    .card-image {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
+
     .card,
     .info-image,
     .title-container,
@@ -45,7 +53,7 @@
     .no-video {
         width: 20rem;
     }
-    
+
     .card {
         flex-direction: column;
         padding: 0.5rem;
@@ -69,6 +77,11 @@
 
     body {
         overflow: hidden;
+    }
+
+    .card-image {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
 
     #separator {
